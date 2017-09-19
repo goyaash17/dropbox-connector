@@ -1,0 +1,3 @@
+<!-- BEGIN_INCLUDE(dropbox:greet) -->
+    <dropbox:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(dropbox:greet) -->

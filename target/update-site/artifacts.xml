@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='file:/C:/Users/ashgoya2/AnypointStudio/research/dropbox-connector/target/update-site/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1505601706502'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.dropbox.3.5.0' version='1.0.0.201709161541'>
+      <properties size='3'>
+        <property name='artifact.size' value='368804'/>
+        <property name='download.size' value='368804'/>
+        <property name='download.md5' value='0cc116e11f550fcddfdfadf8ede6d080'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.dropbox-connector.3.5.0' version='1.0.0.201709161541'>
+      <properties size='4'>
+        <property name='artifact.size' value='646'/>
+        <property name='download.size' value='646'/>
+        <property name='download.md5' value='a49479bb10670939d7c524bda59c3620'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
